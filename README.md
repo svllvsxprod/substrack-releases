@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-substrack.top-2F6DF6?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7657F6?style=for-the-badge">
-  <img alt="Release 0.1.5" src="https://img.shields.io/badge/release-0.1.5-18A66A?style=for-the-badge">
+  <img alt="Release 0.1.6" src="https://img.shields.io/badge/release-0.1.6-18A66A?style=for-the-badge">
 </p>
 
 ## О приложении
@@ -115,13 +115,13 @@ SubsTrack хранит список регулярных расходов и п�
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/substrack-releases/releases/latest).
-2. Скачайте `SubsTrack-0.1.5-sideload.apk`.
+2. Скачайте `SubsTrack-0.1.6-sideload.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания.
 
-Требуется Android 7.0 или новее. Версия 0.1.5 устанавливается поверх 0.1.4 без удаления приложения и сохранит локальные настройки. Веб-версия доступна на [substrack.top](https://substrack.top).
+Требуется Android 7.0 или новее. Версия 0.1.6 устанавливается поверх 0.1.4 и 0.1.5 без удаления приложения. Веб-версия доступна на [substrack.top](https://substrack.top).
 
-Контрольная сумма APK опубликована рядом с файлом релиза и в `SubsTrack-0.1.5-sideload.apk.sha256`.
+Контрольная сумма APK опубликована рядом с файлом релиза и в `SubsTrack-0.1.6-sideload.apk.sha256`.
 
 ## Данные и приватность
 
@@ -135,4 +135,3 @@ SubsTrack хранит список регулярных расходов и п�
 Этот публичный репозиторий предназначен только для готовых сборок, описаний релизов и скриншотов. Исходный код SubsTrack здесь не публикуется.
 
 Нашли ошибку или хотите предложить функцию? Создайте [Issue](https://github.com/svllvsxprod/substrack-releases/issues) или напишите в [Telegram](https://t.me/svllvsxprod).
-
