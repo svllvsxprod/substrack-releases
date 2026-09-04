@@ -1,5 +1,6 @@
 # SubsTrack 0.1.8
 
+- Эти же исправления опубликованы на substrack.top 5 сентября 2026 г.; обновлять APK повторно после установки 0.1.8 не нужно.
 - Исправлена ошибка сохранения подписок после обновления старой установки: локальная база и идентификатор устройства теперь переносятся согласованно, без очистки данных.
 - Исправлено получение изменений даты оплаты с других устройств.
 - Обновление с 0.1.7, сохранение даты на сервере и сохранность результата после перезапуска проверены на физическом Android-устройстве.
@@ -10,6 +11,8 @@ Android 7.0+. Устанавливайте поверх предыдущей в�
 SHA-256: `b172d93993413b42ca4ed11ba38f55e2c1c70717998b616c2b18daa72bd4513d`
 
 ## English
+
+The same fixes were deployed to substrack.top on September 5, 2026. If 0.1.8 is already installed, no replacement APK is needed.
 
 Fixes subscription saving after upgrading older installations by migrating the local database and recovering the matching device identity without clearing data. Billing-date changes from other devices are now accepted. Upgrade from 0.1.7, server persistence and a full app restart were verified on a physical Android device. Install over the previous version; Android 7.0+ and the existing signing certificate are retained. This is a non-debuggable build.
 
