@@ -1,3 +1,20 @@
+# SubsTrack 0.1.8
+
+- Исправлена ошибка сохранения подписок после обновления старой установки: локальная база и идентификатор устройства теперь переносятся согласованно, без очистки данных.
+- Исправлено получение изменений даты оплаты с других устройств.
+- Обновление с 0.1.7, сохранение даты на сервере и сохранность результата после перезапуска проверены на физическом Android-устройстве.
+- Известное ограничение: конфликт одновременных изменений между устройствами пока недостаточно явно показывается в форме; после обновления данных может потребоваться повторить изменение.
+
+Android 7.0+. Устанавливайте поверх предыдущей версии, не удаляя приложение. Подпись прежняя; сборка без отладки.
+
+SHA-256: `b172d93993413b42ca4ed11ba38f55e2c1c70717998b616c2b18daa72bd4513d`
+
+## English
+
+Fixes subscription saving after upgrading older installations by migrating the local database and recovering the matching device identity without clearing data. Billing-date changes from other devices are now accepted. Upgrade from 0.1.7, server persistence and a full app restart were verified on a physical Android device. Install over the previous version; Android 7.0+ and the existing signing certificate are retained. This is a non-debuggable build.
+
+Known limitation: simultaneous-edit conflicts are not yet clearly surfaced in the editor; after synchronization, an edit may need to be retried.
+
 # SubsTrack 0.1.7
 
 - Плашки оплаты, пропуска, отмены и ошибки автоматически исчезают через 6 секунд.
