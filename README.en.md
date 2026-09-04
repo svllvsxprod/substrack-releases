@@ -22,7 +22,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-substrack.top-2F6DF6?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7657F6?style=for-the-badge">
-  <img alt="Release 0.1.6" src="https://img.shields.io/badge/release-0.1.6-18A66A?style=for-the-badge">
+  <img alt="Release 0.1.7" src="https://img.shields.io/badge/release-0.1.7-18A66A?style=for-the-badge">
 </p>
 
 ## About
@@ -65,13 +65,13 @@ All screenshots use demonstration data and contain no user information.
 ## Installation
 
 1. Open the [latest release](https://github.com/svllvsxprod/substrack-releases/releases/latest).
-2. Download `SubsTrack-0.1.6-sideload.apk`.
+2. Download `SubsTrack-0.1.7-sideload.apk`.
 3. Open the APK on your Android device and allow installation from the selected source.
 4. Allow notifications on first launch if you want payment reminders.
 
-Android 7.0 or newer is required. Version 0.1.6 upgrades an existing 0.1.4 or 0.1.5 installation without removing the app. The web version is always available at [substrack.top](https://substrack.top).
+Android 7.0 or newer is required. Version 0.1.7 upgrades an existing 0.1.4–0.1.6 installation without removing the app. The web version is always available at [substrack.top](https://substrack.top).
 
-The APK checksum is attached to the release and stored in `SubsTrack-0.1.6-sideload.apk.sha256`.
+The APK checksum is attached to the release and stored in `SubsTrack-0.1.7-sideload.apk.sha256`.
 
 ## Privacy
 
