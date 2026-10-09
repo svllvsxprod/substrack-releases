@@ -1,3 +1,23 @@
+# SubsTrack 0.1.9
+
+- Интерактивный календарь на главной: платежи выбранного дня, переход к подписке, оплата, предоплата и пропуск.
+- Исправлены наложения в узком календаре, выпадающие меню, фокус форм и навигация в горизонтальном положении.
+- Предпросмотр фона иконки; асинхронная загрузка иконок не затирает новые правки формы.
+- Единое управление цветом системных панелей Android, включая возврат из фона.
+- Светлый/тёмный брендированный экран запуска с оригинальным знаком SubsTrack.
+- Экспорт JSON через системное меню сохранения/отправки файла в приложении.
+- Общий интерфейс обновлён на substrack.top. Без миграций БД и замены данных пользователей.
+
+Android 7.0+. Подпись совпадает с публичной 0.1.8; устанавливайте поверх приложения без удаления данных. Сборка без отладки.
+
+Проверено: 30 браузерных сценариев, профильные автоматические тесты, Android lint, сборка, подпись и установка/запуск на эмуляторе. Входы провайдеров и push на реальном устройстве повторно не проверены. Известное ограничение отображения конфликтов одновременного редактирования сохраняется. iOS в магазины не публиковалась.
+
+SHA-256: `5d5ede5f2107b090c8101675c1a463a82da7db3e291faf713d5c607923c04919`
+
+## English
+
+Interactive Today calendar with daily payment actions; layout, menus, draft editing and icon-background previews improved. Android system-bar theming, branded startup and native JSON export improved. Shared web UI also updated, without database migrations or user-data replacement. Same signing certificate as public 0.1.8, non-debuggable sideload APK; install without clearing data. Browser tests and emulator installation/launch passed. Real-device provider login and push delivery were not re-verified; the simultaneous-edit conflict UX limitation remains. No iOS store release.
+
 # SubsTrack 0.1.8
 
 - Эти же исправления опубликованы на substrack.top 5 сентября 2026 г.; обновлять APK повторно после установки 0.1.8 не нужно.
