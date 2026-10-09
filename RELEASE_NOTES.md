@@ -1,3 +1,23 @@
+# SubsTrack 0.1.11
+
+- Фактические расходы отделены от плана платежей; предоплата учитывается одной суммой по дате оплаты.
+- Можно указать нестандартную сумму за один или несколько периодов без изменения обычного тарифа.
+- Исправлено сохранение идентичности ожидающего платежа при переносе даты и учёт ранее оплаченных периодов.
+- Календарь сразу показывает действия выбранного дня. Улучшены состояния ошибки оплаты и недоступной статистики.
+- Исправлены формат редактируемой суммы, цвета ошибок и подложка статус-бара при прокрутке.
+
+Android 7.0+, прежняя подпись, APK без отладки. Устанавливайте поверх существующего приложения без удаления данных. Выпуск требует обновлённого сервера SubsTrack.
+
+Проверки: 44 браузерных сценария, 26 профильных frontend-тестов, 54 серверных теста в образе выпуска, Android lint и сборки Android/iOS. Полная повторная проверка всех провайдеров входа, push и одновременного редактирования с нескольких устройств в этот выпуск не входит. iOS в магазине не публикуется.
+
+SHA-256: `64a699e5e86ebc26aa1dd65bc4d4658b57374ffa03b579591fa8b7c488506a3d`
+
+## English
+
+Actual cash expenses are separate from scheduled coverage. Custom single/multi-period payments do not reprice subscriptions. Pending payment identity survives date changes; existing paid coverage is respected. Calendar selection reveals day actions, payment failures retain the draft, and amount inputs, error styling and the native status-bar shield are corrected.
+
+Same certificate, non-debuggable APK, Android 7.0+. Install over the existing app without clearing data. Requires the updated SubsTrack server. Automated release checks passed; all-provider login, push delivery and simultaneous cross-device editing were not fully re-tested. No iOS store publication.
+
 # SubsTrack 0.1.10
 
 - Исправлен откат выбранной темы при синхронизации: локальное изменение сохраняется до подтверждения сервером, в том числе при повторной загрузке.
