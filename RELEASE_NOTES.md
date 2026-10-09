@@ -1,3 +1,22 @@
+# SubsTrack 0.1.12
+
+- Суммы ближайших платежей, списка на главной и выбранного дня пересчитываются в основную валюту. Если курса нет, показана исходная сумма с пояснением.
+- Активные сессии доступны в Android и iOS. Исправлены отступы; блок сессий и удаление аккаунта свёрнуты по умолчанию.
+- Дата следующего списания и период оплаты расположены рядом: ежемесячно в выбранный день, каждые 30 дней, другой интервал или ежегодно.
+- Во всех выпадающих меню ровные SVG-стрелки без вращения и смещения.
+
+Android 7.0+, прежняя подпись, APK без отладки. Устанавливайте поверх существующего приложения без удаления данных. Сайт обновлён; серверная база и пользовательские записи не заменялись.
+
+Проверено: профильные автоматические тесты и адаптивные сценарии в обеих темах, Android lint и сборки Android/iOS; установка итогового APK поверх приложения на физическом Android, восстановление аккаунта; сессии и раскрытие меню в симуляторе iPhone. Все провайдеры входа, push, одновременное редактирование и физический iPhone повторно не проверены. iOS 0.1.12 подготовлена локально, в App Store/TestFlight не опубликована.
+
+SHA-256: `0fe56d597f986b9725290adcd3211cd5757df8f819a801738b44ede830b8c516`
+
+## English
+
+Upcoming payments, Today rows and day agenda now use the selected display currency with an explicit missing-rate fallback. Android/iOS session management is available; session and account-deletion panels are collapsed by default with consistent spacing. Billing date and recurrence options are together, distinguishing monthly billing from every 30 days. Dropdown chevrons stay centered without rotating.
+
+Same certificate, non-debuggable APK, Android 7.0+. Install over the existing app without clearing data. Website updated without replacing database records. Targeted automated checks, responsive light/dark flows, native builds, physical Android upgrade and iPhone simulator sessions/dropdowns verified. Provider login, push, concurrent edits and physical iPhone not fully re-tested. iOS 0.1.12 is local only, not published to App Store/TestFlight.
+
 # SubsTrack 0.1.11
 
 - Фактические расходы отделены от плана платежей; предоплата учитывается одной суммой по дате оплаты.
