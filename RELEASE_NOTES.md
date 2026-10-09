@@ -1,3 +1,23 @@
+# SubsTrack 0.1.10
+
+- Исправлен откат выбранной темы при синхронизации: локальное изменение сохраняется до подтверждения сервером, в том числе при повторной загрузке.
+- Сервер принимает системную тему; ранее эта настройка могла блокировать очередь следующих изменений. Исправление применено с резервными копиями, без замены данных пользователей.
+- Временные сетевые ошибки повторяются ограниченно; отклонённые изменения сохраняются для диагностики, а не удаляются из очереди.
+- Исправлена передача восстановленной сессии интерфейсу при недоступных cookies. Секрет продления остаётся в защищённом хранилище.
+- Отключено журналирование содержимого нативных вызовов с данными сессии.
+
+Android 7.0+. Прежняя подпись, сборка без отладки. Устанавливайте поверх приложения, не удаляя данные.
+
+Проверено: восстановление очереди и сохранение светлой темы после подтверждения сервером и перезагрузки на физическом Android; установка итогового APK поверх приложения на телефоне и эмуляторе; профильные тесты, сборка и Android lint. Все провайдеры входа и push в этом выпуске повторно не проверены. Отображение конфликтов одновременного редактирования остаётся известным ограничением. iOS в магазин не публиковалась.
+
+SHA-256: `3ffcba4f1aecb1fb01ce5aad318b70c1571ef05293541155e4de61059a4831ee`
+
+## English
+
+Fixes pending theme rollback during synchronization and reload. The server now accepts system theme without blocking later queued changes; existing data was preserved with backups. Transient network failures receive bounded retries, while rejected commands remain available for diagnostics. Native session restoration no longer depends solely on WebView cookies; refresh credentials remain in secure storage. Native bridge payload logging is disabled.
+
+Same signing certificate, non-debuggable APK, Android 7.0+. Physical-device queue recovery and acknowledged light-theme persistence were verified; the final APK was installed over the app on a phone and emulator. Provider login and push were not all re-tested. Concurrent-edit conflict presentation remains a known limitation. No iOS store publication.
+
 # SubsTrack 0.1.9
 
 - Интерактивный календарь на главной: платежи выбранного дня, переход к подписке, оплата, предоплата и пропуск.
